@@ -39,6 +39,32 @@ public class U1_A2_CreatingForLoops {
         
         switch (firstChoice) {
             case 1:
+                System.out.println("You have chosen to count from 0 to 10 by 1:");
+                for (int i = 0; i <=10; i = i + 1)
+                {
+                    System.out.println(i);
+                }
+            
+            case 2:
+                System.out.println("You have chosen to count from 100 to 0 by 10:");
+                for (int i = 100; i >=0; i = i - 10)
+                {
+                    System.out.println(i);
+                }
+            
+            case 3:
+                System.out.println("You have chosen to count from 50 to 500 by 50:");
+                for (int i = 50; i <=500; i = i + 50)
+                {
+                    System.out.println(i);
+                }
+            
+            case 4:
+                System.out.println("You have chosen to count from 6000 to 1000 by 1000:");
+                for (int i = 6000; i >=1000; i = i - 1000)
+                {
+                    System.out.println(i);
+                }
                 
         }
         
