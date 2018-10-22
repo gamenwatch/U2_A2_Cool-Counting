@@ -44,13 +44,15 @@ public class U1_A2_CreatingForLoops {
                 {
                     System.out.println(i);
                 }
-            
+                break;
+                
             case 2:
                 System.out.println("You have chosen to count from 100 to 0 by 10:");
                 for (int i = 100; i >=0; i = i - 10)
                 {
                     System.out.println(i);
                 }
+                break;
             
             case 3:
                 System.out.println("You have chosen to count from 50 to 500 by 50:");
@@ -58,6 +60,7 @@ public class U1_A2_CreatingForLoops {
                 {
                     System.out.println(i);
                 }
+                break;
             
             case 4:
                 System.out.println("You have chosen to count from 6000 to 1000 by 1000:");
@@ -65,6 +68,7 @@ public class U1_A2_CreatingForLoops {
                 {
                     System.out.println(i);
                 }
+                break;
                 
         }
         
